@@ -1,0 +1,475 @@
+/*Style sheet for the game, defining colors, fonts, and styles for all UI components*/
+
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #1a1a1a;
+}
+
+.screen-root {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 40;
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
+
+.screen-root-top {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 30;
+    -fx-spacing: 14;
+    -fx-alignment: top-center;
+}
+
+.dark-popup {
+    -fx-background-color: #2b2b2b;
+    -fx-padding: 20;
+    -fx-spacing: 12;
+    -fx-alignment: top-center;
+}
+
+.battle-root {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 20;
+    -fx-spacing: 12;
+    -fx-alignment: top-center;
+}
+
+.pause-root {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 30;
+    -fx-spacing: 15;
+    -fx-alignment: center;
+}
+
+.ability-root {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 20;
+    -fx-spacing: 12;
+    -fx-alignment: top-center;
+}
+
+.inventory-root {
+    -fx-background-color: #2b2b2b;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-alignment: top-center;
+}
+
+.scroll-pane {
+    -fx-background-color: #1a1a1a;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #1a1a1a;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #444455;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #6666aa;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #222233;
+}
+
+.hud-root {
+    -fx-background-color: #111122;
+    -fx-padding: 6 10 6 10;
+    -fx-spacing: 3;
+}
+
+.hud-row {
+    -fx-spacing: 20;
+    -fx-alignment: center-left;
+}
+
+.hud-bar-row {
+    -fx-spacing: 8;
+    -fx-alignment: center-left;
+}
+
+.controls-legend {
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-padding: 10;
+    -fx-background-radius: 8;
+    -fx-spacing: 5;
+    -fx-alignment: top-right;
+}
+
+.title-label {
+    -fx-font-size: 32px;
+    -fx-text-fill: #d8d8ff;
+    -fx-font-weight: bold;
+}
+
+.subtitle-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #777777;
+}
+
+.screen-title {
+    -fx-font-size: 26px;
+    -fx-text-fill: #ffffff;
+}
+
+.section-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #ffffff;
+}
+
+.hint-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #888888;
+}
+
+.hud-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #cccccc;
+}
+
+.hud-interact-hint {
+    -fx-font-size: 12px;
+    -fx-text-fill: #ffee44;
+}
+
+.controls-title {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffcc00;
+    -fx-font-weight: bold;
+}
+
+.controls-item {
+    -fx-font-size: 10px;
+    -fx-text-fill: #ffffff;
+}
+
+.battle-title {
+    -fx-font-size: 26px;
+    -fx-text-fill: #ff4444;
+    -fx-font-weight: bold;
+}
+
+.battle-player-stats {
+    -fx-font-size: 13px;
+    -fx-text-fill: #ffffff;
+}
+
+.battle-enemy-stats {
+    -fx-font-size: 13px;
+    -fx-text-fill: #ffaa88;
+}
+
+.battle-log {
+    -fx-font-size: 12px;
+    -fx-text-fill: #ffee44;
+    -fx-border-color: #555555;
+    -fx-border-width: 1;
+    -fx-padding: 6;
+    -fx-background-color: #111111;
+}
+
+.chest-title {
+    -fx-font-size: 26px;
+    -fx-text-fill: #ffcc00;
+    -fx-font-weight: bold;
+}
+
+.inventory-title {
+    -fx-font-size: 22px;
+    -fx-text-fill: #ffffff;
+}
+
+.equipped-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #ffcc00;
+}
+
+.ability-title {
+    -fx-font-size: 22px;
+    -fx-text-fill: #ffcc00;
+    -fx-font-weight: bold;
+}
+
+.new-ability-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #88ff99;
+}
+
+.swap-instruction-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #888888;
+}
+
+.new-item-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #ffee44;
+}
+
+.status-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #ffffff;
+}
+
+.pause-title {
+    -fx-font-size: 34px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.popup-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff;
+}
+
+.victory-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffcc00;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #2a2a3a;
+    -fx-text-fill: #dddddd;
+    -fx-border-color: #555566;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+    -fx-padding: 8 16 8 16;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a55;
+    -fx-border-color: #8888ff;
+    -fx-text-fill: #ffffff;
+}
+
+.button:pressed {
+    -fx-background-color: #5555aa;
+}
+
+.btn-large {
+    -fx-font-size: 15px;
+    -fx-min-width: 200px;
+    -fx-min-height: 46px;
+}
+
+.btn-medium {
+    -fx-font-size: 13px;
+    -fx-min-width: 160px;
+    -fx-min-height: 38px;
+}
+
+.btn-small {
+    -fx-font-size: 13px;
+    -fx-min-width: 120px;
+    -fx-min-height: 35px;
+}
+
+.btn-action {
+    -fx-font-size: 13px;
+    -fx-min-width: 130px;
+    -fx-min-height: 40px;
+}
+
+.btn-menu {
+    -fx-font-size: 14px;
+    -fx-min-width: 200px;
+    -fx-min-height: 46px;
+}
+
+.btn-victory {
+    -fx-font-size: 14px;
+    -fx-min-width: 200px;
+    -fx-min-height: 50px;
+    -fx-background-color: #2a6e2a;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-color: #44aa44;
+    -fx-border-width: 1;
+}
+
+.btn-victory:hover {
+    -fx-background-color: #3a8e3a;
+}
+
+.btn-end {
+    -fx-font-size: 14px;
+    -fx-min-width: 200px;
+    -fx-min-height: 50px;
+    -fx-background-color: #6e2a2a;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-color: #aa4444;
+    -fx-border-width: 1;
+}
+
+.btn-end:hover {
+    -fx-background-color: #8e3a3a;
+}
+
+.btn-equip {
+    -fx-font-size: 13px;
+    -fx-min-width: 150px;
+    -fx-min-height: 40px;
+    -fx-background-color: #1a3a5a;
+    -fx-text-fill: #dddddd;
+    -fx-border-color: #336699;
+    -fx-border-width: 1;
+}
+
+.btn-equip:hover {
+    -fx-background-color: #2a4a7a;
+    -fx-border-color: #4488cc;
+}
+
+.btn-drop {
+    -fx-font-size: 13px;
+    -fx-min-width: 150px;
+    -fx-min-height: 40px;
+    -fx-background-color: #3a1a1a;
+    -fx-text-fill: #dddddd;
+    -fx-border-color: #993333;
+    -fx-border-width: 1;
+}
+
+.btn-drop:hover {
+    -fx-background-color: #5a2a2a;
+    -fx-border-color: #cc4444;
+}
+
+.text-field {
+    -fx-font-size: 13px;
+    -fx-background-color: #2e2e3e;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #555566;
+    -fx-border-width: 1;
+    -fx-padding: 6 10 6 10;
+    -fx-prompt-text-fill: #777788;
+}
+
+.text-field:focused {
+    -fx-border-color: #8888ff;
+    -fx-border-width: 2;
+}
+
+.combo-box {
+    -fx-font-size: 13px;
+    -fx-background-color: #2e2e3e;
+    -fx-border-color: #555566;
+    -fx-border-width: 1;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #2e2e3e;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #2e2e3e;
+    -fx-border-color: #555566;
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #2e2e3e;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected {
+    -fx-background-color: #5555aa;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover {
+    -fx-background-color: #3a3a55;
+}
+
+.list-view {
+    -fx-background-color: #222233;
+    -fx-border-color: #444455;
+    -fx-border-width: 1;
+}
+
+.list-view .list-cell {
+    -fx-text-fill: #cccccc;
+    -fx-background-color: #222233;
+    -fx-padding: 5 8 5 8;
+    -fx-font-size: 12px;
+}
+
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #5555aa;
+    -fx-text-fill: #ffffff;
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #333344;
+}
+
+.progress-bar {
+    -fx-pref-height: 14px;
+}
+
+.progress-bar .track {
+    -fx-background-color: #333344;
+    -fx-background-radius: 3;
+}
+
+.progress-bar .bar {
+    -fx-background-radius: 3;
+    -fx-background-insets: 1;
+}
+
+.hp-bar {
+    -fx-pref-width: 220px;
+    -fx-accent: #00cc44;
+}
+
+.sta-bar {
+    -fx-pref-width: 220px;
+    -fx-accent: #2299ff;
+}
+
+.player-hp-bar {
+    -fx-pref-width: 350px;
+    -fx-accent: #00cc44;
+}
+
+.enemy-hp-bar {
+    -fx-pref-width: 350px;
+    -fx-accent: #cc2222;
+}
+
+.btn-row {
+    -fx-spacing: 15;
+    -fx-alignment: center;
+}
+
+.action-row {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+.dialog-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #1a1a1a;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: #ffffff;
+}
+
+.dialog-pane .content.label {
+    -fx-text-fill: #cccccc;
+    -fx-font-size: 13px;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: #2a2a3a;
+    -fx-text-fill: #dddddd;
+    -fx-border-color: #555566;
+}
